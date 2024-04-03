@@ -1,0 +1,12 @@
+The following are the steps involved
+
+1. go to the folder of your choice and open the command prompt there.
+2. on command prompt write: pip install django
+3. To create the first project, write: django-admin startproject project_name
+
+python3 manage.py runserver
+python manage.py createsuperuser
+python manage.py startapp firstapp (first app is the name of the app)
+inside the firstapp folder, create two folders, one is static where you put images, CSS, javascript (You can create a folder for each). Then in templates, you put your html folder
+
+
